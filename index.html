@@ -5,4 +5,31 @@ layout: default
 <body>
     <h1>Hello World</h1>
     <p>I'm hosted with GitHub Pages.</p>
+
+<p> 
+Testing rest apis in Java is not as easy as in other interpreted languages like
+Ruby or Python. rest-assured is an open source library that aims to make it simpler.
+
+Rest-assured has a very permissive open source license that means anyone is free to use it and modify it as she pleases.
+
+The library supports most of the prevalent authentication mechanisms as well as all Rest API methods like GET, POST, PUT, DELETE, PATCH etc.
+It also has simplistic methods for asserting for common http constructs like response status, body etc. It supports validating different response
+formats. Asserting on JSON is very intuitive and easy to understand.
+
+In the follow sections we'll see different aspects of rest assured.
+
+First, to add rest-assured in our maven based project, we'll get the dependency from maven central. A quick Google search gives us this deendency.
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+Based on when you are using this, you could look for a later version. Note, how we are using the scope as "test" since we only want this dependency in our tests.
+</p>
 </body>
+
+
